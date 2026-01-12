@@ -1,10 +1,45 @@
 export default {
     id: 'ai',
     title: 'Inteligência Artificial',
-    summary: 'Desenvolvimento de modelos de machine learning e deep learning para resolução de problemas complexos e automação inteligente.',
+    summary: 'Aplicação prática de LLMs, agentes autônomos e arquiteturas RAG',
     content: `
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Desenvolvimento de modelos de machine learning e deep learning para resolução de problemas complexos e automação inteligente.</p>
-        <p>At vero eos et accusamus et iusto odio dignissimos. Implementação de pipelines de NLP, computer vision e sistemas de recomendação utilizando TensorFlow, PyTorch e frameworks modernos.</p>
-        <p>Et harum quidem rerum facilis est et expedita distinctio. Integração de APIs de IA generativa, fine-tuning de modelos e deploy de soluções em produção com MLOps.</p>
+        <ul>
+
+        <li>
+            <p>
+                Utilização diária de modelos de mercado como GPT, Gemini e Claude,
+                aplicados em apoio ao desenvolvimento, análise técnica
+                e aceleração de fluxos de trabalho.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Execução de modelos locais via Ollama, incluindo modelos de chat e embeddings (com diferentes tamanhos de vetores)
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Organização e indexação de documentações em bases de dados vetoriais,
+                utilizando Qdrant e pgvector para implementações de RAG.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Orquestração de agentes através de n8n, OpenWebU e Python
+                com LangChain.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Codificação utilizando agentes integrados à IDE Cursor,
+                utilizando IA como apoio ativo na escrita, refatoração e análise de código.
+            </p>
+        </li>
+
+        </ul>
     `
 };
