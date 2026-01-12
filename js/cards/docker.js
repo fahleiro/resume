@@ -7,7 +7,7 @@ export default {
 
         <li>
             <p>
-                Utilização de Docker para construção e execução de imagens voltadas à automação de testes web e mobile,
+                Construção e execução de imagens voltadas à automação de testes web e mobile,
                 encapsulando dependências como browsers, drivers, Appium e ferramentas de build via Dockerfile.
             </p>
         </li>
@@ -25,6 +25,12 @@ export default {
             como ollama, pgvector e n8n.
         </p>
         </li>
+
+        <li>
+        <p>
+            Dockerização da aplicação qa-track incluindo: database postgres, API e frontend em React.
+        </p>
+        </li>        
 
         </ul>
     `
