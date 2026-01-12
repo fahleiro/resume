@@ -1,10 +1,29 @@
 export default {
     id: 'java',
     title: 'Java',
-    summary: 'Desenvolvimento de aplicações enterprise com Spring Boot, Spring Cloud e microservices, seguindo padrões SOLID e clean architecture.',
+    summary: 'Frameworks, automação de testes, integrações multiplataforma e desenvolvimento de ferramentas',
     content: `
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Desenvolvimento de aplicações enterprise com Spring Boot, Spring Cloud e microservices, seguindo padrões SOLID e clean architecture.</p>
-        <p>Quis autem vel eum iure reprehenderit qui in ea. Implementação de APIs RESTful, mensageria com Kafka e RabbitMQ, e integração com sistemas legados.</p>
-        <p>Neque porro quisquam est, qui dolorem ipsum quia. Otimização de performance com JVM tuning, multithreading e processamento assíncrono para aplicações de alta demanda.</p>
+        <ul>
+
+        <li>
+            <p>
+                Desenvolvimento de frameworks de automação de testes WEB e MOBILE.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Automação de testes WEB, MOBILE e API, com execuções tanto integradas a diferentes provedores e ambientes de mercado, como Perfecto e BrowserStack, quanto em LAN (Devicefarm próprio). 
+                Utilizando Maven para gestão de dependências e execução dos testes, com Cucumber para definição de cenários BDD.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                Criação de aplicações desktop utilizando Java Swing.
+            </p>
+        </li>
+
+    </ul>
     `
 };
