@@ -1,6 +1,5 @@
 import typescript from './cards/typescript.js';
-import sql from './cards/sql.js';
-import nosql from './cards/nosql.js';
+import database from './cards/database.js';
 import ai from './cards/ai.js';
 import docker from './cards/docker.js';
 import java from './cards/java.js';
@@ -8,8 +7,7 @@ import java from './cards/java.js';
 // Adicione novos cards aqui
 const cards = [
     typescript,
-    sql,
-    nosql,
+    database,
     ai,
     docker,
     java
