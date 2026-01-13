@@ -23,16 +23,78 @@ header {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: clamp(1rem, 5vw, 2.5rem);
     margin-bottom: 10px;
     font-weight: 600;
     letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.name-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #718096;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-line::before,
+.name-line::after {
+    content: '';
+    flex: 1;
+    min-width: 50px;
+    height: 1px;
+    background: #718096;
 }
 
 .subtitle {
     font-size: 1.1rem;
     color: #718096;
     font-weight: 400;
+}
+
+.about-me-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.expand-link {
+    font-size: 0.75rem;
+    color: #a0aec0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.expand-link:hover {
+    color: #718096;
+}
+
+.about-me-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+
+.about-me-content.active {
+    max-height: 500px;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.about-me-content p {
+    color: #4a5568;
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 .controls {
@@ -221,10 +283,6 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-
     .cards-grid {
         grid-template-columns: 1fr;
     }

@@ -10,7 +10,15 @@
     <div class="container">
         <header>
             <h1>Gabriel Reinisch Faleiro</h1>
-            <p class="subtitle">Experiência e Implementações</p>
+            <p class="name-line"><span>◇</span></p>
+            <div class="about-me-header">
+                <span class="subtitle">About me</span>
+                <a href="#" class="expand-link" onclick="toggleAboutMe(event)">[expand]</a>
+            </div>
+            <div class="about-me-content" id="aboutMeContent">
+                <p>ipsis literis bla bla bla</p>
+            </div>
+
         </header>
 
         <div class="cards-grid" id="cardsGrid"></div>
@@ -27,5 +35,14 @@
     </div>
 
     <script type="module" src="js/main.js"></script>
+    <script>
+        function toggleAboutMe(event) {
+            event.preventDefault();
+            const content = document.getElementById('aboutMeContent');
+            const link = event.target;
+            content.classList.toggle('active');
+            link.textContent = content.classList.contains('active') ? '[collapse]' : '[expand]';
+        }
+    </script>
 </body>
 </html>
