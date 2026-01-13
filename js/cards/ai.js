@@ -15,7 +15,7 @@ export default {
 
         <li>
             <p>
-                Execução de modelos locais via Ollama, incluindo modelos de chat e embeddings (com diferentes tamanhos de vetores)
+                Execução de modelos locais via Ollama, incluindo modelos de chat e embeddings (com diferentes tamanhos de vetores).
             </p>
         </li>
 
@@ -28,7 +28,7 @@ export default {
 
         <li>
             <p>
-                Orquestração de agentes através de n8n, OpenWebU e Python
+                Orquestração de agentes através de n8n, OpenWebUI e Python
                 com LangChain.
             </p>
         </li>
